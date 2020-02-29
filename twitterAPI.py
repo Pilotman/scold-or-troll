@@ -47,6 +47,7 @@ class Blacklist:
         f = open(file, 'r')
         buf = f.read()
         ls = buf.split('\n')
+        f.close()
 
         for i in range(0, len(ls)):
             ls[i] = ls[i].replace(" ", "")
