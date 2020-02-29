@@ -4,7 +4,7 @@ This app is a simple wrap of the twitter API for python. Provided with a blackli
 
 ## Running the source
 
-To run from the source, you need the `twitter` and `PyQt5` modules installed in python, use `pip` to install those, then simply run `python3 main.py` to run the program.
+To run from the source, you need the `python-twitter` and `PyQt5` modules installed in python, use `pip` to install those, then simply run `python3 main.py` to run the program.
 
 ## Running in Windows
 
