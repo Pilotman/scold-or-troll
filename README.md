@@ -6,3 +6,12 @@ This app is a simple wrap of the twitter API for python. Provided with a blackli
 
 To run from the source, you need the `twitter` and `PyQt5` modules installed in python, use `pip` to install those, then simply run `python3 main.py` to run the program.
 
+## Running in Windows
+
+To run in Windows you need to download the .zip file (or clone the reposotory), then go into `dist/main` and double-click the `main.exe` file.
+
+If you want to run it from somewhere else **make a shortcut**. If you only move the executable, things **will** break
+
+## Blacklist files
+
+The default blacklist file is `defaultList.txt`, feel free to edit it or add another one to suit your needs, but it has to be in the same directory as the executable/main.py script
