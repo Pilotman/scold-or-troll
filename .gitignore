@@ -2,3 +2,4 @@ __pycache__/*
 twitterAPIpers.py
 mainpers.py
 build/*
+build/main/*
