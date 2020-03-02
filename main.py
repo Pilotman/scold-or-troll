@@ -12,13 +12,13 @@ global username
 def window():
    app = QApplication(sys.argv)
    win = QWidget()
-			
+            
    flo = QFormLayout()
 
    userIn = QLineEdit()
    userIn.textChanged.connect(userchanged)
    flo.addRow("Twitter user name without the @ ",userIn)
-	
+    
    BLIn = QLineEdit()
    BLIn.setText('defaultList.txt')
    BLIn.textChanged.connect(blackchanged)
@@ -32,7 +32,7 @@ def window():
    win.setLayout(flo)
    win.setWindowTitle("Scold or Troll")
    win.show()
-	
+    
    sys.exit(app.exec_())
 
 def result():
@@ -48,7 +48,7 @@ def result():
     num_fol = che.numFol
     num_hits = che.checkNum(BL)
 
-    letext += '<p>They follow ' + str(num_fol) + "people, " + str(num_hits) + ' of them are in the blacklist</p>'
+    letext += '<p>They follow ' + str(num_fol) + " people, " + str(num_hits) + ' of them are in the blacklist</p>'
     
     letext += '<p>Those include:</p>'
     
@@ -70,7 +70,7 @@ def result():
 def userchanged(text):
    global username
    username = text
-	
+    
 def blackchanged(text):
     global BLFile
     BLFile = text

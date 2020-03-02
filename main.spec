@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['E:\\Twitter App\\twitterapp'],
+             pathex=['/home/pirx/Documents/Programos/twitterapp'],
              binaries=[],
              datas=[],
              hiddenimports=[],

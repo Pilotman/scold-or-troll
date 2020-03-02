@@ -1,9 +1,9 @@
 import twitter
 
-api = twitter.Api(consumer_key='opFimyY8q4lzyDq7IbkPT2LZy',
-                  consumer_secret='RP87D4KTLZRzWjhE8J75i0EMl99FyLHzenhjYyV5jKGPCmhu8L',
-                  access_token_key='2199427461-EI7tT3urK5FI0ZASMMphVtZhCeWeh5I8KoPOfUt',
-                  access_token_secret='6RY3plWZBR6sfjyaa083bEQC24eKIPjXTaC2vVNPJBz0K')
+api = twitter.Api(consumer_key='',         # Insert here your twitter API keys
+                  consumer_secret='',
+                  access_token_key='',
+                  access_token_secret='')
 
 class Checker:
 
